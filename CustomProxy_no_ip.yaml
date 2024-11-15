@@ -1,4 +1,15 @@
 # 存放着个人遇到需要代理的域名
+# DOMAIN
+# 完全匹配域名，例如 DOMAIN,google.com 匹配 google.com，但不匹配 www.google.com。
+
+# DOMAIN-SUFFIX
+# 匹配域名后缀，例如 DOMAIN-SUFFIX,google.com 匹配 google.com 和 www.google.com。
+
+# DOMAIN-KEYWORD
+# 关键词匹配域名，例如 DOMAIN-KEYWORD,google 匹配 google.com 和 google.jp。
+
+# DOMAIN-KEYWORD,XXX.cn,DIRECT(直连)
+
 payload:
   - DOMAIN-KEYWORD,civitai.com
   - DOMAIN-KEYWORD,wiki.metacubex.one
