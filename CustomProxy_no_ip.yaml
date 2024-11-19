@@ -9,12 +9,11 @@
 # 关键词匹配域名，例如 DOMAIN-KEYWORD,google 匹配 google.com 和 google.jp。
 
 # DOMAIN-KEYWORD,XXX.cn,DIRECT(直连)
-
+#- DOMAIN-SUFFIX,gstatic.com
+#- DOMAIN-SUFFIX,googleapis.cn
 payload:
   - DOMAIN-KEYWORD,civitai.com
   - DOMAIN-KEYWORD,wiki.metacubex.one
   - DOMAIN-KEYWORD,z-library
   - DOMAIN-KEYWORD,chuwi
-  - DOMAIN-SUFFIX,h-ciyuan.com
-  #- DOMAIN-SUFFIX,gstatic.com
-  #- DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-KEYWORD,h-ciyuan
